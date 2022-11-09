@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body, #app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-rendering: optimizeSpeed;
+  scroll-behavior: smooth;
+  background: var(--color-secondary-700);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background-color: var(--color-primary-100);
+  color: var(--color-text-100);
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: var(--color-text-800);
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: var(--color-text-500);
+}
